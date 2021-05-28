@@ -7140,19 +7140,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Ali Mert Çakar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\FarmaBorsaReact\\aspnetcore-playground\\aspnetcore-playground.csproj",
+      "projectUniqueName": "C:\\Users\\Ali Mert Çakar\\Documents\\GitHub\\read-write-memory\\aspnetcore-playground\\aspnetcore-playground.csproj",
       "projectName": "aspnetcore-playground",
-      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\FarmaBorsaReact\\aspnetcore-playground\\aspnetcore-playground.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\FarmaBorsaReact\\aspnetcore-playground\\obj\\",
+      "projectPath": "C:\\Users\\Ali Mert Çakar\\Documents\\GitHub\\read-write-memory\\aspnetcore-playground\\aspnetcore-playground.csproj",
+      "packagesPath": "C:\\Users\\Ali Mert Çakar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ali Mert Çakar\\Documents\\GitHub\\read-write-memory\\aspnetcore-playground\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ali Mert Çakar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7219,7 +7219,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
