@@ -18,8 +18,6 @@ namespace aspnetcore_playground
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-
-            services.AddDbContext<ApiContext>(opt => opt.UseInMemoryDatabase("Api"));
             services.AddControllers();
             services.AddSwaggerDocument();
         }
@@ -40,10 +38,7 @@ namespace aspnetcore_playground
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                endpoints.MapControllers();
             });
         }
     }
