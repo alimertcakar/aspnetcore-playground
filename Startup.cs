@@ -20,7 +20,6 @@ namespace aspnetcore_playground
         {
 
             services.AddDbContext<ApiContext>(opt => opt.UseInMemoryDatabase("Api"));
-            services.AddMvc();
             services.AddControllers();
         }
 
