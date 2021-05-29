@@ -21,6 +21,7 @@ namespace aspnetcore_playground
 
             services.AddDbContext<ApiContext>(opt => opt.UseInMemoryDatabase("Api"));
             services.AddControllers();
+            services.AddSwaggerDocument();
         }
 
 
@@ -34,6 +35,8 @@ namespace aspnetcore_playground
             }
 
             app.UseRouting();
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
 
             app.UseEndpoints(endpoints =>
             {
